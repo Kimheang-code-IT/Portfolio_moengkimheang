@@ -8,13 +8,7 @@ useSeoMeta({
   title,
   description,
   ogTitle: title,
-  ogDescription: description,
-  ogType: 'website',
-  ogImage: personal.profileImage,
-  twitterCard: 'summary_large_image',
-  twitterTitle: title,
-  twitterDescription: description,
-  twitterImage: personal.profileImage
+  ogDescription: description
 })
 </script>
 
@@ -27,6 +21,7 @@ useSeoMeta({
       <SkillsSection />
       <ProjectsSection />
       <ExperienceSection />
+      <EducationSection />
       <CertificatesSection />
       <ContactSection />
     </main>

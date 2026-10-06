@@ -1,115 +1,67 @@
 {
   "title": "Experience",
+  "description": "Production software delivery across government, freelance and academic settings, spanning FastAPI services, Nuxt frontends and desktop applications.",
   "items": [
     {
-      "role": "Web Application Developer",
+      "role": "Full Stack Developer",
       "company": "General Department of Customs and Excise of Cambodia (GDCE)",
-      "dateRange": "2025 - Present",
+      "dateRange": "Jun 2026 - Nov 2026",
       "achievements": [
-        "Developed responsive chatbot interfaces using Vue.js and Vuetify",
-        "Designed chatbot architecture, conversation workflows, and system integration",
-        "Built FastAPI services and RESTful APIs for chatbot and OCR processing",
-        "Integrated OCR technology to extract text and structured information from uploaded documents and images",
-        "Designed database structures for storing chatbot conversations, user requests, documents, and OCR results",
-        "Implemented request validation, authentication, error handling, API testing, and debugging"
+        "Designed chatbot architecture and developed FastAPI services for chatbot and OCR features",
+        "Built RESTful APIs and integrated OCR for extracting text from documents and images",
+        "Managed chatbot and OCR databases, including validation, authentication, testing, and performance improvements"
       ]
     },
     {
-      "role": "Full-Stack Developer",
-      "company": "Freelance and Personal Projects",
-      "dateRange": "2024 - Present",
+      "role": "Freelance Software Developer",
+      "company": "Freelance Project",
+      "dateRange": "2026 - Present",
       "achievements": [
-        "Developed full-stack applications including school management, e-commerce, chatbot, OCR, and administrative systems",
-        "Built frontend applications using Nuxt.js, Vue.js, Nuxt UI, TypeScript, Tailwind CSS, React.js, and Vuetify",
-        "Developed RESTful APIs using FastAPI, Spring Boot, Django, Node.js, and Express.js",
-        "Designed and managed PostgreSQL, MySQL, Microsoft SQL Server, SQLite, and MongoDB databases",
-        "Implemented JWT authentication, role-based access control, validation, pagination, filtering, and API documentation",
-        "Containerized and deployed applications using Docker, Docker Compose, Nginx, Linux servers, and cloud platforms"
+        "Built and deployed 15+ client platforms spanning e-commerce, freight forwarding with double-entry finance, pharmacy inventory, mobile banking, and school management",
+        "Developed admin dashboards and public websites with Nuxt.js, TypeScript, Nuxt UI, and Tailwind CSS",
+        "Built RESTful APIs with FastAPI and managed PostgreSQL data using SQLAlchemy and Alembic migrations",
+        "Implemented JWT authentication and role-based access control across every platform",
+        "Added Celery background jobs, Redis caching, ECharts dashboards, and Excel and PDF reporting",
+        "Integrated Telegram bots and notifications for order, stock, and support workflows",
+        "Delivered production deployments with Docker Compose and Nginx, including a one-command Windows installer for on-premise client hardware"
       ]
     },
     {
-      "role": "School Management System Developer",
-      "company": "Personal Project",
-      "dateRange": "2026",
+      "role": "Desktop Application Developer",
+      "company": "Freelance Project",
+      "dateRange": "2026 - Present",
       "achievements": [
-        "Developed a full-stack school management system using Nuxt.js, TypeScript, FastAPI, and PostgreSQL",
-        "Built features for managing students, courses, classes, enrollments, invoices, finance, and administrative operations",
-        "Implemented JWT authentication, Redis caching, Celery background tasks, and Google Sheets data backup",
-        "Containerized the system with Docker Compose and configured Nginx routing and load balancing"
+        "Developed Windows desktop applications in PyQt6 and PyQt6-Fluent-Widgets for traffic analysis and school management",
+        "Computed road traffic metrics (AADT, PCU, ESAL) with NumPy and pandas, visualized with pyqtgraph and matplotlib",
+        "Shipped standalone executables via PyInstaller with Excel and PDF export via ReportLab"
       ]
     },
     {
-      "role": "E-Commerce Application Developer",
-      "company": "Personal Project",
-      "dateRange": "2026",
+      "role": "Robotics Engineering Student",
+      "company": "Juang Jing Vocational High School, Taiwan",
+      "dateRange": "2024 - 2025",
       "achievements": [
-        "Developed an e-commerce platform with a public product catalog, admin dashboard, point-of-sale features, and sales reports",
-        "Built the frontend using Nuxt.js, Vue.js, TypeScript, Nuxt UI, and Tailwind CSS",
-        "Developed RESTful APIs using FastAPI, SQLAlchemy, and PostgreSQL",
-        "Implemented authentication, product and inventory management, order processing, background jobs, and Telegram integration",
-        "Deployed the application using Docker, Docker Compose, Nginx, and a Linux server"
-      ]
-    },
-    {
-      "role": "Mobile Application Developer",
-      "company": "Personal Project",
-      "dateRange": "2025 - 2026",
-      "achievements": [
-        "Developed a Cambodian mobile banking application using Flutter and Dart",
-        "Built authentication, account dashboard, transaction history, money transfer, bill payment, card management, and QR scanning features",
-        "Used Provider for state management and organized the application into reusable models, screens, services, and themes",
-        "Created responsive interfaces for Android and iOS devices"
-      ]
-    },
-    {
-      "role": "IoT and Robotics Developer",
-      "company": "Academic Projects",
-      "dateRange": "2023 - 2024",
-      "achievements": [
-        "Studied electronic systems, robotics programming, sensors, motors, and microcontroller integration",
-        "Designed IoT concepts connecting embedded devices, backend APIs, databases, and monitoring dashboards",
-        "Worked with automation workflows, hardware simulation, and real-time data communication",
-        "Documented system architecture, hardware components, implementation processes, and testing results"
-      ]
-    },
-    {
-      "role": "AI Chatbot Developer",
-      "company": "General Department of Customs and Excise of Cambodia (GDCE)",
-      "dateRange": "2025 - Present",
-      "achievements": [
-        "Developed a responsive chatbot interface using Vue.js and Vuetify",
-        "Built FastAPI services and RESTful APIs for chatbot communication and data processing",
-        "Designed chatbot workflows and integrated the frontend, backend, and database",
-        "Stored user questions, chatbot responses, conversation history, and feedback in the database",
-        "Implemented authentication, request validation, error handling, API testing, and debugging"
-      ]
-    },
-    {
-      "role": "OCR System Developer",
-      "company": "General Department of Customs and Excise of Cambodia (GDCE)",
-      "dateRange": "2025 - Present",
-      "achievements": [
-        "Developed an OCR processing system for extracting text and structured data from trade documents and images",
-        "Built FastAPI endpoints for document upload, OCR processing, result retrieval, and data storage",
-        "Integrated the OCR pipeline with the chatbot system to support document-based questions",
-        "Designed database structures for uploaded documents, extracted text, processing status, and OCR results",
-        "Implemented file validation, exception handling, testing, debugging, and performance improvements"
+        "Studied robotics programming, electronics and circuit design, and microcontroller programming",
+        "Worked on industrial robotics, robot assembly and maintenance, and sensor and motor integration",
+        "Applied automation and control systems and mechanical design to hands-on laboratory work"
       ]
     }
   ],
+  "educationTitle": "Education",
+  "educationDescription": "Formal education in computer science, robotics engineering and secondary studies.",
   "education": [
     {
       "institution": "ACLEDA University of Business",
       "degree": "Bachelor of Computer Science and Engineering",
-      "dateRange": "2023 - 2027",
-      "status": "Final-Year Student",
-      "description": "Studying Computer Science and Engineering with a focus on software development, RESTful APIs, database systems, artificial intelligence, cloud computing, DevOps, networking, and system design."
+      "dateRange": "2024 - 2028",
+      "status": "Final-Year Student (Year 4)",
+      "description": "Key courses: Java Programming, Python Programming, Cloud Computing, Database Management Systems, Web Application Development, Data Structures and Algorithms, and Entrepreneurship."
     },
     {
       "institution": "Juang Jing Vocational High School, Taiwan",
-      "degree": "Vocational Training in Electronic Robotics",
-      "dateRange": "2023 - 2024",
-      "description": "Completed specialized training in electronic systems, robotics technology, microcontrollers, sensors, motors, automation, and control systems."
+      "degree": "Robotics Engineering",
+      "dateRange": "2024 - 2025",
+      "description": "Key courses: Robotics Programming, Electronics and Circuit Design, Microcontroller Programming, Automation and Control Systems, Mechanical Design, Sensor and Motor Integration, Industrial Robotics, and Robot Assembly and Maintenance."
     },
     {
       "institution": "Bat Doeng High School",

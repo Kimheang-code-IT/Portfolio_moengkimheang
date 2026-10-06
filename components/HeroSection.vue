@@ -1,6 +1,7 @@
 <script setup lang="ts">
-const { personal, hero, heroSocialLinks, about } = usePortfolio()
+const { personal, hero, heroSocialLinks, about, expertise, expertiseContent } = usePortfolio()
 const { displayedRole } = useTypedRoles(personal.roles)
+const { levels } = useTypedExpertise(expertise)
 
 const scrollToContact = () => scrollToSection('#contact')
 </script>
@@ -71,6 +72,40 @@ const scrollToContact = () => scrollToSection('#contact')
               size="lg"
               @click="scrollToContact"
             />
+          </div>
+
+          <div class="mt-10">
+            <p class="text-xs font-semibold uppercase tracking-wide text-toned">
+              {{ expertiseContent.title }}
+            </p>
+
+            <ul class="mt-4 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
+              <li
+                v-for="(item, index) in expertise"
+                :key="item.label"
+                class="flex items-center gap-2.5"
+              >
+                <span
+                  class="size-1.5 shrink-0 rounded-full bg-primary"
+                  aria-hidden="true"
+                />
+                <span class="min-w-0 flex-1 truncate text-sm text-default">
+                  {{ item.label }}
+                </span>
+                <span
+                  class="h-1.5 w-20 shrink-0 overflow-hidden rounded-full bg-elevated sm:w-24"
+                  aria-hidden="true"
+                >
+                  <span
+                    class="block h-full rounded-full bg-primary transition-[width] duration-100 ease-linear"
+                    :style="{ width: `${levels[index] ?? 0}%` }"
+                  />
+                </span>
+                <span class="w-9 shrink-0 text-right text-xs font-semibold tabular-nums text-muted">
+                  {{ levels[index] ?? 0 }}%
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 

@@ -16,6 +16,9 @@ dist-ssr
 *.local
 
 # Editor directories and files
+# Local source images (contains identity documents - do not publish)
+assets/images/
+
 .vscode/*
 !.vscode/extensions.json
 .idea

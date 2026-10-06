@@ -8,10 +8,6 @@ export default defineNuxtConfig({
     fallback: 'light',
     classSuffix: ''
   },
-  site: {
-    url: 'https://profolio-mu-blush.vercel.app',
-    name: 'Moeng Kimheang'
-  },
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
@@ -65,7 +61,7 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:image',
-          content: 'https://profolio-mu-blush.vercel.app/images/profile.jpg'
+          content: 'https://moengkimheang.vercel.app/images/profile.jpg'
         },
         {
           property: 'og:image:alt',
@@ -73,7 +69,7 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:url',
-          content: 'https://profolio-mu-blush.vercel.app'
+          content: 'https://moengkimheang.vercel.app'
         },
         {
           property: 'og:locale',
@@ -94,7 +90,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'twitter:image',
-          content: 'https://profolio-mu-blush.vercel.app/images/profile.jpg'
+          content: 'https://moengkimheang.vercel.app/images/profile.jpg'
         }
       ],
       link: [
@@ -103,7 +99,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes: '16x16' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' },
         { rel: 'manifest', href: '/site.webmanifest' },
-        { rel: 'canonical', href: 'https://profolio-mu-blush.vercel.app' },
+        { rel: 'canonical', href: 'https://moengkimheang.vercel.app' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {
@@ -114,13 +110,13 @@ export default defineNuxtConfig({
       script: [
         {
           type: 'application/ld+json',
-          children: JSON.stringify({
+          innerHTML: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Person',
             name: 'Moeng Kimheang',
             jobTitle: 'Frontend Developer',
-            url: 'https://profolio-mu-blush.vercel.app',
-            image: 'https://profolio-mu-blush.vercel.app/images/profile.jpg',
+            url: 'https://moengkimheang.vercel.app',
+            image: 'https://moengkimheang.vercel.app/images/profile.jpg',
             email: 'mailto:heang015873174@gmail.com',
             telephone: '+855962943472',
             address: {
@@ -128,7 +124,13 @@ export default defineNuxtConfig({
               addressLocality: 'Phnom Penh',
               addressCountry: 'KH'
             },
-            sameAs: ['https://github.com/Kimheang-code-IT'],
+            sameAs: [
+              'https://github.com/Kimheang-code-IT',
+              'https://www.linkedin.com/in/moeng-kimheang-848992378/',
+              'https://t.me/Moeng_Kimheang',
+              'https://web.facebook.com/kim.heang.9678/',
+              'https://www.tiktok.com/@learncomputer_9'
+            ],
             knowsAbout: [
               'Vue.js',
               'Nuxt',

@@ -9,28 +9,45 @@
   },
   "items": [
     {
-      "id": "robotics",
-      "title": "Electronic Robotics Certificate",
-      "image": "/certificates/photo_2025-11-17_17-09-18.jpg",
-      "url": "/certificates/photo_2025-11-17_17-09-18.jpg"
+      "id": "asean-data-science-2026",
+      "title": "ASEAN Data Science Explorers 2026",
+      "summary": "Enablement Session e-Certificate",
+      "url": "/certificates/asean-data-science-2026.pdf"
     },
     {
-      "id": "high-school",
-      "title": "High School Diploma",
-      "image": "/certificates/high-school-diploma.jpg",
-      "url": "/certificates/high-school-diploma.pdf"
+      "id": "acleda-leadership-digital-age",
+      "title": "Leadership in Digital Age",
+      "summary": "ACLEDA University of Business workshop, September 13, 2025",
+      "image": "/certificates/acleda-leadership-digital-age.jpg",
+      "url": "/certificates/acleda-leadership-digital-age.jpg"
     },
     {
-      "id": "secondary",
+      "id": "acleda-team-confidence",
+      "title": "Methods for Building Team Confidence to Achieve High Performance",
+      "summary": "ACLEDA University of Business workshop, January 25, 2025",
+      "image": "/certificates/acleda-team-confidence.jpg",
+      "url": "/certificates/acleda-team-confidence.jpg"
+    },
+    {
+      "id": "acleda-business-management",
+      "title": "Understanding the Weakness in Business Management & Seeking Solutions",
+      "summary": "ACLEDA University of Business workshop, December 22, 2024",
+      "image": "/certificates/acleda-business-management.jpg",
+      "url": "/certificates/acleda-business-management.jpg"
+    },
+    {
+      "id": "acleda-self-motivation",
+      "title": "Self-Motivation to be Outstanding Person",
+      "summary": "ACLEDA University of Business workshop, October 26, 2024",
+      "image": "/certificates/acleda-self-motivation.jpg",
+      "url": "/certificates/acleda-self-motivation.jpg"
+    },
+    {
+      "id": "lower-secondary",
       "title": "Lower Secondary Certificate",
-      "image": "/certificates/secondary-certificate.jpg",
-      "url": "/certificates/secondary-certificate.pdf"
-    },
-    {
-      "id": "primary",
-      "title": "Primary Education Certificate",
-      "image": "/certificates/primary-certificate.jpg",
-      "url": "/certificates/primary-certificate.pdf"
+      "summary": "National Examination Certificate, Cambodia, 2023",
+      "image": "/certificates/lower-secondary-certificate.jpg",
+      "url": "/certificates/lower-secondary-certificate.jpg"
     }
   ]
 }

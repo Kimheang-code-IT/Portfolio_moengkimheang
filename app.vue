@@ -21,14 +21,14 @@ useSeoMeta({
   ogTitle: 'Moeng Kimheang — Frontend Developer',
   ogDescription:
     'I build responsive, accessible digital products with thoughtful interfaces and maintainable code. Vue, Nuxt, and full-stack web applications.',
-  ogImage: 'https://profolio-mu-blush.vercel.app/images/profile.jpg',
+  ogImage: 'https://moengkimheang.vercel.app/images/profile.jpg',
   ogType: 'website',
-  ogUrl: 'https://profolio-mu-blush.vercel.app',
+  ogUrl: 'https://moengkimheang.vercel.app',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Moeng Kimheang — Frontend Developer',
   twitterDescription:
     'I build responsive, accessible digital products with thoughtful interfaces and maintainable code.',
-  twitterImage: 'https://profolio-mu-blush.vercel.app/images/profile.jpg'
+  twitterImage: 'https://moengkimheang.vercel.app/images/profile.jpg'
 })
 </script>
 

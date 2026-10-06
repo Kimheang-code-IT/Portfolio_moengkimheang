@@ -5,7 +5,12 @@ const { experience, experienceContent } = usePortfolio()
 <template>
   <section id="experience" class="section-padding border-b border-default">
     <div class="section-container">
-      <h2 class="section-title">{{ experienceContent.title }}</h2>
+      <div class="mb-10 text-center">
+        <h2 class="section-title">{{ experienceContent.title }}</h2>
+        <p class="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-muted">
+          {{ experienceContent.description }}
+        </p>
+      </div>
 
       <ol class="mx-auto max-w-3xl space-y-8 border-l border-default pl-6">
         <li

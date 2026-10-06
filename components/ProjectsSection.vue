@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { projects, projectsContent } = usePortfolio()
+const { featuredProjects, projectsContent } = usePortfolio()
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const { projects, projectsContent } = usePortfolio()
 
       <div class="grid gap-x-5 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
         <ProjectCard
-          v-for="project in projects"
+          v-for="project in featuredProjects"
           :key="project.id"
           :project="project"
           :labels="projectsContent.labels"

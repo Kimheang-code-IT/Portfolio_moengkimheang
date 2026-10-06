@@ -1,8 +1,8 @@
 {
   "title": "About",
-  "biography": "A motivated and detail-oriented Year 3 (Semester 1) student at ACLEDA University majoring in Computer Science and Engineering. Passionate about Web Development and UI/UX Design, with solid skills in problem-solving, database design, and building responsive web interfaces. Always eager to apply both academic and technical knowledge to real projects, learn new technologies, and contribute effectively to a development team.",
+  "biography": "Final-year (Year 4) Computer Science and Engineering student at ACLEDA University of Business and Full Stack Developer with hands-on experience building web, mobile, desktop, and AI-powered applications. Experienced with Vue.js, Nuxt.js, React.js, FastAPI, Spring Boot, Node.js, PostgreSQL, Docker, REST APIs, and cloud deployment, with a strong foundation in backend architecture, database integration, API development, DevOps, and software testing.",
   "focusLabel": "Current focus",
-  "currentFocus": "Building production-ready web applications, strengthening frontend architecture with Vue 3 and Nuxt, and contributing to full-stack projects with clean APIs and maintainable UI.",
+  "currentFocus": "Building and deploying production-ready full-stack applications with FastAPI, Spring Boot, and Node.js backends, Vue.js and Nuxt frontends, and containerized CI/CD pipelines on Linux and cloud infrastructure.",
   "stats": {
     "locationLabel": "Location",
     "experienceLabel": "Years of experience",

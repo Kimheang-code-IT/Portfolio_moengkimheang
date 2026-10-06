@@ -1,0 +1,19 @@
+{
+  "title": "Core expertise",
+  "items": [
+    { "label": "Mobile Application", "level": 82 },
+    { "label": "Windows Application", "level": 90 },
+    { "label": "Server Administration", "level": 95 },
+    { "label": "Computer Networking", "level": 60 },
+    { "label": "Cloud Computing", "level": 81 },
+    { "label": "DevOps", "level": 93 },
+    { "label": "Internet of Things (IoT)", "level": 71 },
+    { "label": "Artificial Intelligence", "level": 76 },
+    { "label": "Machine Learning", "level": 82 },
+    { "label": "Data Analysis", "level": 86 },
+    { "label": "Database Administration", "level": 95 },
+    { "label": "Microsoft Office", "level": 97 },
+    { "label": "Soft Skills", "level": 81 },
+    { "label": "Self-Management", "level": 98 }
+  ]
+}

@@ -138,7 +138,10 @@ export interface CertificatesData {
 
 export interface ExperienceData {
   title: string
+  description: string
   items: WorkExperience[]
+  educationTitle: string
+  educationDescription: string
   education: EducationEntry[]
 }
 
@@ -159,6 +162,16 @@ export interface SiteData {
   socialLinks: SocialLink[]
   header: HeaderContent
   footer: FooterContent
+}
+
+export interface ExpertiseItem {
+  label: string
+  level: number
+}
+
+export interface ExpertiseData {
+  title: string
+  items: ExpertiseItem[]
 }
 
 export interface ContactContent {
@@ -226,7 +239,12 @@ export interface PortfolioData {
   projects: Project[]
   projectsContent: Omit<ProjectsData, 'items'>
   experience: WorkExperience[]
-  experienceContent: Pick<ExperienceData, 'title'>
+  experienceContent: Pick<
+    ExperienceData,
+    'title' | 'description' | 'educationTitle' | 'educationDescription'
+  >
+  expertise: ExpertiseItem[]
+  expertiseContent: Pick<ExpertiseData, 'title'>
   certificates: Certificate[]
   certificatesContent: Omit<CertificatesData, 'items'>
   education: EducationEntry[]

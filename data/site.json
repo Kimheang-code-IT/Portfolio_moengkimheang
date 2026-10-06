@@ -5,6 +5,7 @@
     { "id": "skills", "label": "Skills", "href": "#skills" },
     { "id": "projects", "label": "Projects", "href": "#projects" },
     { "id": "experience", "label": "Experience", "href": "#experience" },
+    { "id": "education", "label": "Education", "href": "#education" },
     { "id": "certificates", "label": "Certificates", "href": "#certificates" },
     { "id": "contact", "label": "Contact", "href": "#contact" }
   ],
@@ -12,31 +13,31 @@
     {
       "id": "github",
       "label": "GitHub",
-      "href": "https://github.com/moengkimheang",
+      "href": "https://github.com/Kimheang-code-IT",
       "icon": "i-simple-icons-github"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn",
-      "href": "[LINKEDIN_URL]",
+      "href": "https://www.linkedin.com/in/moeng-kimheang-848992378/",
       "icon": "i-simple-icons-linkedin"
     },
     {
       "id": "telegram",
       "label": "Telegram",
-      "href": "[TELEGRAM_URL]",
+      "href": "https://t.me/Moeng_Kimheang",
       "icon": "i-simple-icons-telegram"
     },
     {
       "id": "facebook",
       "label": "Facebook",
-      "href": "[FACEBOOK_URL]",
+      "href": "https://web.facebook.com/kim.heang.9678/",
       "icon": "i-simple-icons-facebook"
     },
     {
       "id": "tiktok",
       "label": "TikTok",
-      "href": "[TIKTOK_URL]",
+      "href": "https://www.tiktok.com/@learncomputer_9",
       "icon": "i-simple-icons-tiktok"
     },
     {

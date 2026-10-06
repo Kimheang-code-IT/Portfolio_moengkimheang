@@ -1,24 +1,24 @@
 {
   "personal": {
-  "name": "Moeng Kimheang",
-  "role": "Frontend Developer",
-  "roles": [
-    "Frontend Developer",
-    "Nuxt & Vue Developer",
-    "UI/UX Designer",
-    "AI & Data Enthusiast",
-    "Mobile App Developer"
-  ],
-  "tagline": "I build responsive, accessible digital products with thoughtful interfaces and maintainable code.",
-  "location": "Tuol Kouk, Phnom Penh City, Cambodia",
-  "email": "heang015873174@gmail.com",
-  "phone": "+855 962943472",
+    "name": "Moeng Kimheang",
+    "role": "Full Stack Developer",
+    "roles": [
+      "Full Stack Developer",
+      "Nuxt & Vue Developer",
+      "FastAPI & Spring Boot Developer",
+      "Mobile App Developer",
+      "AI & Data Enthusiast"
+    ],
+    "tagline": "Final-year Computer Science and Engineering student and Full Stack Developer building web, mobile, desktop, and AI-powered applications.",
+    "location": "Sangkat Khmuonh, Khan Sen Sok, Phnom Penh",
+    "email": "heang015873174@gmail.com",
+    "phone": "+855 962 943 472",
     "yearsOfExperience": "3+",
-  "status": "Open to Opportunities",
-  "currentFocus": "Vue.js, Nuxt, and full-stack web applications with Django REST Framework and PostgreSQL",
-  "profileImage": "/images/profile.jpg",
-  "profileImageAlt": "Moeng Kimheang profile photo",
-  "cvUrl": "/Moeng-Kimheang-CV.pdf"
+    "status": "Open to Opportunities",
+    "currentFocus": "Full-stack development with FastAPI, Spring Boot, and Node.js, paired with Vue.js and Nuxt frontends deployed with Docker and CI/CD",
+    "profileImage": "/images/profile.jpg",
+    "profileImageAlt": "Moeng Kimheang profile photo",
+    "cvUrl": "/Moeng-Kimheang-CV.pdf"
   },
   "hero": {
     "eyebrow": "Hello, I am",
